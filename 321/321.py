@@ -34,11 +34,11 @@ def скинути_дошку():
             кнопки[i][j]['text'] = ''
     гравець = 'X'
 
-# Створення вікна
+
 root = tk.Tk()
 root.title("Крестики-нолики")
 
-# Ініціалізація кнопок
+
 кнопки = [[None, None, None] for _ in range(3)]
 for i in range(3):
     for j in range(3):
@@ -48,4 +48,4 @@ for i in range(3):
 
 гравець = 'X'
 
-root.mainloop()
+
