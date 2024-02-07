@@ -4,7 +4,7 @@ from tkinter import messagebox
 def перевірка_переможця():
     for i in range(3):
         if кнопки[i][0]['text'] == кнопки[i][1]['text'] == кнопки[i][2]['text'] != '':
-            return кнопки[i][0]['text']
+            return кнопки[i][0]['text ']
         if кнопки[0][i]['text'] == кнопки[1][i]['text'] == кнопки[2][i]['text'] != '':
             return кнопки[0][i]['text']
     if кнопки[0][0]['text'] == кнопки[1][1]['text'] == кнопки[2][2]['text'] != '':
