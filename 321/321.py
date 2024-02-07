@@ -48,4 +48,4 @@ for i in range(3):
 
 гравець = 'X'
 
-
+root.mainloop()
