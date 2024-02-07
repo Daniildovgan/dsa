@@ -46,6 +46,6 @@ for i in range(3):
                                  command=lambda row=i, col=j: клік(row, col))
         кнопки[i][j].grid(row=i, column=j)
 
-
+гравець = 'x'
 
 root.mainloop()
